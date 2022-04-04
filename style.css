@@ -1,0 +1,77 @@
+.wrapper
+{
+    background:#778899;
+    padding: 10px;
+    width: 800px;       /*➕*/
+    margin-left: auto;  /*➕*/
+    margin-right: auto; /*➕*/
+}
+.w3-container{
+    background: url ("fon.jpg");
+}
+body
+{
+    background: url ("fon.jpg") no-repeat;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%;
+    background-size: 100%; 
+   }
+html {
+    background-image: url(fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.w3-container
+{
+    background-image: url ("fon.jpg");
+}
+h1
+{
+    text-align: center;
+    background:#0D1415;
+	color:#496565;
+	padding: 5px;       /*➕*/
+}
+
+ul
+{
+    text-align: center;
+	padding: 0px; /*➕*/
+}
+
+li
+{
+    display: inline-block;
+}
+
+.game
+{
+    width: 350px;
+    background: black;
+	text-align: center;  /*➕*/
+	margin-left: auto;   /*➕*/
+	margin-right: auto;  /*➕*/
+}
+
+.block
+{
+    display: inline-block;
+    background: #719494;
+    width: 300px;
+    height: 300px;
+    border:1px solid rgb(116, 1, 1);
+	text-align: center;  /*➕*/
+	margin:5px;          /*➕*/
+	font-size: 45px;     /*➕*/
+}
+
+.block div
+{
+    display:none;
+}
